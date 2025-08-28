@@ -5,10 +5,10 @@ import { updateElectronApp, UpdateSourceType } from 'update-electron-app';
 import logger from 'electron-log'
 
 updateElectronApp({
-  // updateSource: {
-  //   type: UpdateSourceType.ElectronPublicUpdateService,
-  //   repo: 'abhishake1/electron-forge-ota-demo'
-  // },
+  updateSource: {
+    type: UpdateSourceType.ElectronPublicUpdateService,
+    repo: 'abhishake1/electron-forge-ota-demo'
+  },
   updateInterval: '10 minutes',
   logger,
 });
