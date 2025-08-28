@@ -57,7 +57,7 @@ const config: ForgeConfig = {
           owner: 'abhishake1',
           name: 'electron-forge-ota-demo'
         },
-        prerelease: true
+        prerelease: false
       }
     }
   ]
